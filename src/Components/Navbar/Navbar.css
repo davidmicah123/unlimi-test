@@ -1,0 +1,46 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    background: white;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+
+.logo{
+    width: 10rem;
+    height: 2.5rem;
+}
+.nav_action_area{
+    display: flex;
+    justify-content: space-between;
+    width: 75vw;
+}
+.searchbar_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.2rem;
+    border: 1px solid grey;
+    border-radius: 0.4rem;
+    padding-left: 1rem;
+}
+.search_input{
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+}
+
+
+.user_action_area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.alert_icon{
+    width: 2rem;
+    height: 2rem;
+}
